@@ -1,0 +1,274 @@
+/*---------------------------------- Main part css---------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    height: 550px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+header {
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+/*-------------- Main Classes ----------------------- */
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.color-ice {
+    color: aliceblue;
+}
+
+.font-robot {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color {
+    background-color: slateblue;
+}
+
+
+/* -------------------------top block----------- */
+
+.topblock {
+    background-image: url('/img/OD2SQX0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.topblock:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* --------------Info Block------------------ */
+
+.info-block h1 {
+    color: aliceblue;
+    font-size: 1.5em;
+    background: black;
+}
+
+.info-block {
+    padding-top: 0px;
+    padding: 40% 20% 5% 20%;
+    display: block;
+}
+
+
+/*-------------------------- activity button font awsome icone-------------------------------------*/
+
+.active-btn {
+    display: inline-block;
+}
+
+.active-btn i {
+    font-size: 50px;
+    color: black;
+}
+
+
+/*-------------------------- username style -------------------------------------*/
+
+.username {
+    display: inline-block;
+}
+
+.username h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+
+.username p {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: 0px;
+}
+
+
+/* ---------------------- Social BUTTON ------------------ */
+
+.social-btn {
+    margin-left: 15%;
+    display: block;
+}
+
+.face-btn {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid whitesmoke;
+    border-radius: 7%;
+    width: 68%;
+    height: 35%;
+    color: whitesmoke;
+    margin-left: 8%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* --------------- Follow Block Information ------------------------ */
+
+.followers {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+.folowing {
+    width: 50%;
+    border-bottom: 1px solid #ffff;
+}
+
+.followers,
+.folowing {
+    background-color: slateblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.follow-list {
+    margin: 0;
+    list-style-type: none;
+}
+
+.count {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.flow {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: darkgray;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+
+/*----------------- About Section ---------------*/
+
+.about {
+    background-color: slateblue;
+}
+
+.about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: aliceblue;
+    padding: 20px;
+    margin: 0px;
+    height: 120px;
+    
+}
+
+.portfolio {
+    overflow: hidden;
+}
+
+.portfolio img {
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+
+/* -------------------- SKILL SECTION ------------------ */
+
+.skills {
+    background-color: slateblue;
+}
+
+.skills h1 {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.skills li {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 31px;
+}
+
+.skills ol {
+    padding-top: 5%;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.skills ol li {
+    counter-increment: my-awesome-counter;
+    display: flex;
+    width: 50%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills ol li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    color: aliceblue;
+}
+
+
+/*----------- Foooter SEction --------------- */
+
+footer {
+    padding-top: 3%;
+    background-color: slateblue;
+    width: 100%;
+    height: 12%;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 6%;
+}
+
+.scroll-top {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+
+/*-------------------- Some Anmations -----------------------*/
+
